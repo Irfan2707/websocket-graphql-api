@@ -80,7 +80,11 @@ npx prisma migrate deploy
 
 ### Run the application:
 
-npm start
+- npm run build
+
+- npm install
+
+- npm start
 
 
 ### Available Commands
