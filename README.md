@@ -33,6 +33,9 @@ This project provides a backend server with a GraphQL API, set up with Prisma OR
 - Docker and Docker Compose
 - Node.js and npm (Node Package Manager)
 
+###  Video Demo Link (Vimeo)
+https://vimeo.com/1028583130/0ca1659b06?share=copy
+
 ## API COLLECTION
 ### Graphql
 https://galactic-eclipse-830192.postman.co/workspace/2b579c65-95b4-44bf-a731-d6680799dad0/request/26285759-b3f0392f-0ce5-4dd7-97e0-58434a785bc4
