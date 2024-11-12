@@ -48,34 +48,39 @@ https://github.com/Irfan2707/websocket-graphql-api.git
 cd your-repository
 
 ### Step 2: Set Up PostgreSQL Database with Docker
-Pull PostgreSQL Docker image:
-### sudo docker pull postgres
+## Pull PostgreSQL Docker image:
 
-Run the PostgreSQL container:
+sudo docker pull postgres
 
-sudo systemctl start docker
-docker ps
-sudo docker exec -it 2f8d0beb3590 psql -U postgres
+### Run the PostgreSQL container:
+
+- sudo systemctl start docker
+
+- docker ps
+
+- sudo docker exec -it 2f8d0beb3590 psql -U postgres
 
 ### Step 3: Run Database Migrations
-In a separate terminal, run:
+
+### In a separate terminal, run:
 
 npx prisma migrate deploy
 
 ### Step 4: Set Up Environment Variables
 
-Create a .env file and set your variables:
+### Create a .env file and set your variables:
 
-DATABASE_URL="postgresql://postgres:yourpassword@localhost:5432/yourdatabase"
-JWT_SECRET="your_jwt_secret"
+- DATABASE_URL="postgresql://postgres:yourpassword@localhost:5432/yourdatabase"
+- JWT_SECRET="your_jwt_secret"
 
 ### Step 5: Start the Application
-Run the application:
+
+### Run the application:
 
 npm start
 
 
-## Available Commands
+### Available Commands
 
 Run Migrations: npx prisma migrate deploy
 
@@ -86,7 +91,7 @@ Run Migrations: npx prisma migrate deploy
 - Prisma Documentation
 - Docker Documentation
 
-##License
+### License
 This project is licensed under the MIT License.
 
 
