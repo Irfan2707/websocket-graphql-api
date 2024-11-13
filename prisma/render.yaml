@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: graphql-api
+    env: node
+    plan: free
+    buildCommand: npm install && npx prisma generate
+    startCommand: npm start
+    envVars:
+      - key: DATABASE_URL
+        fromDatabase: your-database-name
+      - key: JWT_SECRET
+        value: "$uperM@n@123"
