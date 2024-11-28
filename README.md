@@ -98,8 +98,6 @@ Run Migrations: npx prisma migrate deploy
 - Prisma Documentation
 - Docker Documentation
 
-### License
-This project is licensed under the MIT License.
 
 
 
